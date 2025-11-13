@@ -7,33 +7,101 @@
 </head>
 <body>
     
+<!--Início Código do Header-->
+
     <header>
-
-
-
-
-
+        <img src="" alt="">
+        
+        <nav>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Cardápio</a></li>
+                <li><a href="">Receita</a></li>
+                <li><a href="">Reserva</a></li>
+            </ul>
+        </nav>
 
     </header>
 
+<!--Fim Código do Header-->
+
+<!--Começo Código das Divs-->
     <main>
         <div class="banner-principal">
-            <h1>O BURGUER DOS DEVS</h1>
+            <h1>O NOVO CONCEITO DE HAMBURGUERIA</h1>
             <img src="" alt="">
-            <h3>Since 2025</h3>
-            <h3>VISITE NOSSO NOVO RESTAURANTE</h3>
-            <button>Entre em Contato</button>
         </div>
 
-        <div class="contato-reserva">
-            <img src="" alt="">
-            <h1>CONTATO</h1>
-            <ul>
-                <li>(31) 99999-9999</li>
-                <li>Avenida dos Devs - Igarapé, MG</li>
-                <li>devburguer@gmail.com</li>
-            </ul>
+        <div class="cardapio">
+
+            <H1>CARDÁPIO</H1>
+            <p>A combinação perfeita entre tradição e inovação.</p>
+            
+            <div class="card-cardapio">
+                <img src="" alt="">
+                <h3>CHEDDAR CROWN</h3>
+            </div>
+
+            <div class="card-cardapio">
+                <img src="" alt="">
+                <h3>BACON STORM</h3>
+            </div>
+
+            <div class="card-cardapio">
+                <img src="" alt="">
+                <h3>CHEESE OVERLOAD</h3>
+            </div>
+
+            <div class="card-cardapio">
+                <img src="" alt="">
+                <h3>DARK PRIME</h3>
+            </div>
+
+            <div class="card-cardapio">
+                <img src="" alt="">
+                <h3>NATURAL PRIME</h3>
+            </div>
+
+            <div class="card-cardapio">
+                <img src="" alt="">
+                <h3>BRUTUS BURGUER</h3>
+            </div>
+
         </div>
+
+        <section class="sugestao">
+            <h1>SUGIRA UMA RECEITA</h1>
+
+            <form action="#" method="post">
+                <label for="nome-receita">DIGITE O NOME DA RECEITA SUGERIDA:</label><br>
+                <input type="text" id="nome-receita" name="nome-receita"><br>
+
+                <label for="ingredientes">DIGITE OS INGREDIENTES DA RECEITA SUGERIDA:</label><br>
+                <textarea name="ingredientes" id="ingredientes" rows="6"></textarea><br><br>
+            </form>
+
+            <button type="submit">ENVIAR</button>
+        </section>
+
+        <section class="reservas">
+            <h1>SUGIRA UMA RECEITA</h1>
+
+            <form action="#" method="post">
+
+                <label for="responsavel">NOME DO RESPONSÁVEL:</label><br>
+                <input type="text" id="responsavel" name="responsavel"><br>
+
+                <label for="lugares">QUANTIDADE DE LUGARES:</label><br>
+                <textarea name="lugares" id="lugares" rows="6"></textarea><br><br>
+
+                <label for="chegada">HORÁRIO DE CHEGADA:</label><br>
+                <textarea name="chegada" id="chegada" rows="6"></textarea><br><br>
+
+            </form>
+
+            <button type="submit">RESERVAR</button>
+
+        </section>
 
         <footer>
 
