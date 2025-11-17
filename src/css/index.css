@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#banner-principal
+{
+    height: 275px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to right, #1A1A1A 50%, #f2f2f2 50%);
+    padding: 40px;                                                                                                                                                                                                                                                                                                                                                                   
+}
+
+#banner-principal h1
+{
+    text-align: left;
+    text-decoration: none;
+    color: #fe5d00;
+    font-family: 'Rammetto One', sans-serif;
+    margin: 60px;
+    
+}
+
+#banner-principal img
+{
+    display: block;
+    margin: 13.5%;
+    width: 420px;
+    height: 300px;
+}
+
+.cardapio h1
+{
+}
